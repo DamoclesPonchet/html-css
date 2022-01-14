@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modelando caixas</title>
+    <style>
+        body{
+            background-image: linear-gradient(to right,  #E0B1CB, #BE95C4, #9F86C0, #5E548E, #231942);
+        }
+        h1#especial{
+            width: auto;
+            background-color: brown;
+            text-align: center;
+            margin: auto;
+            color: white;
+            box-shadow: 7px 8px 7px rgba(0, 0, 0, 0.274);
+            border: 5px solid;
+            border-image-slice: 1;
+            border-image-source: url('bordapersonalizada.png');
+        }
+
+        a{
+            border-top: 4px;
+            border-right: 4px;
+            border-bottom: 4px;
+            border-left: 4px;
+            border-style: double;
+            border-color: crimson;
+
+        }
+        main{
+            background-color: lightgray;
+            width: 400px;
+            height: 400px;
+            margin: auto;
+            border-top-left-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="especial">caixa tipo box-level
+        <ins>com sombra</ins>
+    </h1>
+    <main>
+        <p>um link é uma caixa do tipo <a href="#">inline-level</a>.</p>
+    
+        <div id="cabeçalho" style="text-align: center; padding-top: 20px;">
+            <h1>titulo da caixa</h1>
+        </div>
+        <div id="conteúdo">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium facilis odio dolore excepturi incidunt a perspiciatis, quos, sunt quibusdam doloremque quod minima aspernatur voluptatibus maiores sint suscipit ipsum! Assumenda, nostrum.
+        </div>
+    </main>
+</body>
+</html>

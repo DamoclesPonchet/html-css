@@ -1,0 +1,27 @@
+@charset "UTF-08";
+body{
+    background-image: linear-gradient(to right,#4972E3, #5DB1FA);
+}
+main{
+    text-align: center;
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    border-radius: 10px;
+}
+h2#fora{
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+}
+p#especial{
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 2em;
+    font-family: serif;
+}

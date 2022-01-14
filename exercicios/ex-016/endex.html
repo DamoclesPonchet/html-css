@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testado hover</title>
+    <style>
+        .ot{
+            background-color: lightgray;
+            height: 200px;
+            width: 200px;
+            text-align: center;
+            border:2px solid black;
+            display: inline-block;
+        }
+        div{
+            width: 150px;
+        }
+        div:hover{
+            background-color: darkviolet;
+        }
+        div > p{
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+            background-color: forestgreen;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>exemplo de hover</h1>
+    <p>passe o  mouse pelo texto abaixo.</p>
+    <div>
+        passe o mouse aqui.
+        <p>texto secreto.</p>
+    </div>
+    <h2 style="background-color: brown; color: white; text-align: center;">encontre o macaco</h2>
+    <div class="ot">01 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ut inventore reiciendis eius dignissimos quibusdam quaerat qui doloremque beatae tempore obcaecati repellendus delectus eum, architecto ipsa illo in accusamus facere.</p></div>
+    <div class="ot">02 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat iusto reprehenderit molestias quis harum inventore velit, est molestiae magnam eos quae delectus perferendis amet ab, dolor in autem officia earum!</p></div>
+    <div class="ot">03 <p><img src="imagens/macaca-225.jpg" alt="foto de macaco" width="200px" height="160px"></p></div>
+    
+</body>
+</html>
