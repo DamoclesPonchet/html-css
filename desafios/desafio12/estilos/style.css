@@ -30,18 +30,20 @@ a:hover{
 section.normal{
     background-color: rgb(255, 255, 255);
     line-height: 30px;
-    padding: 30px;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 section.imagem{
     background-color: rgb(48, 49, 49);
     line-height: 30px;
-    padding: 30px;
 }
 section.imagem >p{
     background-color: rgba(0, 0, 0, 0.268);
     color: white;
-    width: 250px;
     padding-left : 20px; 
+    display: inline-block;
 }
 footer{
     background-color: black;
